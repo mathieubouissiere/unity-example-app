@@ -72,7 +72,7 @@ public class AdManager : MonoBehaviour {
 
 		HeyzapAds.SetNetworkCallbackListener(networkCallbackListener);
 		HeyzapAds.ShowDebugLogs();
-		HeyzapAds.Start("ENTER_YOUR_PUBLISHER_ID_HERE", HeyzapAds.FLAG_NO_OPTIONS);
+		HeyzapAds.Start("cbd98b406a2962885df63a0fc79d4d45", HeyzapAds.FLAG_NO_OPTIONS);
 
         HZBannerAd.SetDisplayListener(delegate(string adState, string adTag) {
             this.console.Append("BANNER: " + adState + " Tag : " + adTag);
